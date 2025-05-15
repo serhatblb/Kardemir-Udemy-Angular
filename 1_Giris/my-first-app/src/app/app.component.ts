@@ -17,6 +17,8 @@ export class AppComponent {
     alert("Beni Tıkladın...")
   }
 
+  pClassName:string = 'red';
+
   changeHelloWorldVariable(event:any){
     this.helloworld=event.target.value;
   }
