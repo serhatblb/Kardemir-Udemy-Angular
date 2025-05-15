@@ -12,4 +12,12 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 export class AppComponent {
 
   helloworld:string ="Hello, world from Kardemir"
+
+  clickMe(){
+    alert("Beni Tıkladın...")
+  }
+
+  changeHelloWorldVariable(event:any){
+    this.helloworld=event.target.value;
+  }
 }

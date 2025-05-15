@@ -3,3 +3,7 @@
   <router-outlet></router-outlet>
 </div>
 <h1>{{helloworld}}</h1>
+
+<button (click)="clickMe()">Beni Tıkla</button>
+
+<input type="text" placeholder="Yeni yazı yazabilsin" (keyup)="changeHelloWorldVariable($event)">
