@@ -9,4 +9,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {}
+export class AppComponent {
+
+  helloworld:string ="Hello, world from Kardemir"
+}
